@@ -25,7 +25,7 @@ graph LR
         SW --- V1["VLAN 1<br/>192.168.1.0/24<br/>(Aucun port affecté)"]
         SW --- V2["VLAN 2<br/>10.0.0.0/8<br/>Ports: Fa1/0/1 à 1/0/4"]
         SW --- V3["VLAN 3<br/>172.18.0.0/16<br/>Ports: Fa1/0/5 à 1/0/8"]
-        SW --- V4["VLAN 4 (Serveurs)<br/>192.168.0.0/24<br/>Ports: Fa1/0/9 à 1/0/12"]
+        SW --- V4["VLAN 4 (LAME)<br/>192.168.0.0/24<br/>Ports: Fa1/0/9 à 1/0/12"]
     end
 
     %% Styles
