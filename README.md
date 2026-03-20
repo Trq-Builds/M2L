@@ -14,7 +14,7 @@ graph LR
         FW -- "Port 3 <--> Serveurs<br/>192.168.0.0/24 (statique)" --> DMZ_Srv["Serveurs DMZ"]
     end
 
-    FW -- "Port 4 <--> Port 0/0/0<br/>Réseau: 172.18.0.0/16" --> R1(("Routeur Cisco<br/>.1"))
+    FW -- "Port 4 <--> Port 0/0/0<br/>Réseau: 172.19.0.2/16" --> R1(("Routeur Cisco<br/>.1"))
     
     R1 -- "Port 0/0/1 <--> Port Fa1/0/22<br/>VLAN 5<br/>172.17.0.0/16" --> SW["Switch L3<br/>.254"]
 
