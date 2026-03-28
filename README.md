@@ -1,7 +1,7 @@
 
 # ` 🌐 ` ︲ ` 🗺️ `︲Shéma Réseau - Contexte M2L
 
----
+-----
 ## ` ❔ `︲Contexte de ce Shéma : 
 
 Le projet s'inscrit dans le cadre des **Ateliers Professionnels (AP)** de la formation **SISR**. L'objectif est de concevoir et de déployer l'intégralité de l'infrastructure réseau de la **Maison des Ligues de Lorraine (M2L)**. Ce montage servira de support technique pour l'examen final.
@@ -23,7 +23,7 @@ L'infrastructure est segmentée en quatre zones IP distinctes :
 * **Serveur OCS :** Pour l'inventaire et la gestion du parc informatique.
 * **Serveur DNS :** Élément nécessaire pour l'accès via noms de domaine.
 
----
+-----
 
 ```mermaid
 graph LR
@@ -65,4 +65,4 @@ graph LR
     style BLADE fill:#ffd,stroke:#333
     ```
     
-    
+    -----
