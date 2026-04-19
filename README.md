@@ -14,7 +14,7 @@
 
 Le projet s'inscrit dans le cadre des **Ateliers Professionnels (AP)** de la formation **SISR**. L'objectif est de concevoir et de déployer l'intégralité de l'infrastructure réseau de la **Maison des Ligues de Lorraine (M2L)**. Ce montage servira de support technique pour l'examen final.
 
-L'infrastructure est segmentée en quatre zones IP distinctes :
+L'infrastructure est segmentée en trois zones IP distinctes :
 
 ### 1. Interconnexion et Sécurité
 * **Routeur :** Assure le routage entre les zones et la route par défaut vers l'extérieur.
